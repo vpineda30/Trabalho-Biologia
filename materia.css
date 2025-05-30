@@ -1,0 +1,336 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fdf6f8;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  font-weight: 380;
+  color: black;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+}
+
+.navegacao{
+  display: flex;
+  justify-content: center;
+  height: 135px;
+  background: linear-gradient(#f4cbda, #e9b2c6);
+}
+
+.navegacao h3{
+  font-size: 25px;
+  margin-top: 2%;
+  color: #303030;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    position: absolute;
+    list-style: none;
+    gap: 22%;
+}
+header ul a{
+    font-size: 15px;
+    font-weight: 450;
+    text-decoration: none;
+    color: #303030;
+    cursor: pointer;
+}
+
+.navegacao li{
+    transition: 0.3s;
+}
+
+.navegacao li:hover{
+    transform: scale(1.05);
+}
+
+.explicacao{
+  position: absolute;
+  margin-top: 13%;
+}
+
+.fecundacao{
+  display: flex;
+  background: linear-gradient(#f0cfdb, #f8c0d5);
+  margin-left: 7%;
+  border-radius: 10px;
+  padding: 55px;
+  margin-top: 2%;
+  width: 85%;
+  height: 380px;
+}
+.fecundacao p{
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  width: 50%;
+  font-size: 22px;
+  text-align: justify;
+}
+.fecundacaoh3{
+  display: flex;
+  justify-content: center;
+  padding: 35px;
+  color: #303030;
+}
+
+/* Tipos */
+
+.tiposh3{
+  display: flex;
+  justify-content: center;
+  margin-top: 8%;
+  color: #303030;
+}
+.tipos{
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  margin-right: 8%;
+  margin-left: 7%;
+}
+.tipos .interna{
+  background: linear-gradient(#f0cfdb, #f8c0d5);
+  border-radius: 10px;
+  margin-top: 5%;
+  width: 25%;
+  padding: 35px;
+  align-items: center;
+  color: #303030;
+}
+.tipos .interna p{
+  margin-top: 8%;
+  font-size: 18px;
+}
+.tipos .externa{
+  background: linear-gradient(#f0cfdb, #f8c0d5);
+  border-radius: 10px;
+  margin-top: 5%;
+  width: 25%;
+  padding: 35px;
+  color: #303030;
+}
+.tipos .externa p{
+  margin-top: 8%;
+  font-size: 18px;
+}
+.tipos .cruzada{
+  background: linear-gradient(#f0cfdb, #f8c0d5);
+  border-radius: 10px;
+  margin-top: 5%;
+  width: 25%;
+  padding: 35px;
+  color: #303030;
+}
+.tipos .cruzada p{
+  margin-top: 8%;
+  font-size: 18px;
+}
+.tipos .auto{
+  background: linear-gradient(#f0cfdb, #f8c0d5);
+  border-radius: 10px;
+  margin-top: 5%;
+  width: 25%;
+  padding: 35px;
+  color: #303030;
+}
+.tipos .auto p{
+  margin-top: 8%;
+  font-size: 18px;
+}
+
+/* Tipos fim */
+
+/* fedundação humana */
+
+.humanah3{
+  display: flex;
+  justify-content: center;
+  margin-top: 8%;
+  color: #303030;
+}
+.humana{
+  display: flex;
+  background: linear-gradient(#f0cfdb, #f8c0d5);
+  border-radius: 10px;
+  margin-top: 4%;
+  margin-left: 7%;
+  width: 85%;
+  height: 380px;
+  padding: 55px;
+}
+.humana p{
+  display: flex;
+  margin-left: 50%;
+  align-items: center;
+  text-align: justify;
+  width: 50%;
+  font-size: 18px;
+}
+
+/* fedundação humana fim */
+
+/* fases */
+
+.fasesh3{
+  display: flex;
+  justify-content: center;
+  margin-top: 8%;
+  color: #303030;
+}
+
+.fases{
+  display: flex;
+  background: linear-gradient(#f0cfdb, #f8c0d5);
+  border-radius: 10px;
+  margin-top: 4%;
+  margin-left: 7%;
+  width: 85%;
+  height: 380px;
+  padding: 55px;
+  padding-left: 80px;
+}
+
+.fases li{
+  margin-top: 5px;
+  width: 1000px;
+  font-size: 19px;
+}
+
+/* fases fim */
+
+/* inseminação */
+
+.extracorporea{
+  display: flex;
+  justify-content: center;
+  margin-top: 8%;
+  color: #303030;
+}
+
+.cardsferti{
+  display: flex;
+}
+
+.fertilizacaoh3{
+  display: flex;
+  justify-content: center;
+  color: #303030;
+}
+.fertilizacao{
+  background: linear-gradient(#f0cfdb, #f8c0d5);
+  border-radius: 10px;
+  margin-top: 4%;
+  margin-left: 5%;
+  width: 40%;
+  height: 500px;
+  padding: 55px;
+}
+
+.fertilizacao p{
+  display: flex;
+  margin-top: 10%;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.inseminacaoh3{
+  display: flex;
+  justify-content: center;
+  color: #303030;
+}
+
+.inseminacao{
+  background: linear-gradient(#f0cfdb, #f8c0d5);
+  border-radius: 10px;
+  margin-top: 4%;
+  margin-left: 7%;
+  width: 40%;
+  height: 500px;
+  padding: 55px;
+}
+
+.inseminacao p{
+  display: flex;
+  margin-top: 10%;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.sintomash3{
+  display: flex;
+  justify-content: center;
+  margin-top: 8%;
+  color: #303030;
+}
+
+.sintomas{
+  display: flex;
+  align-items: center;
+  background: linear-gradient(#f0cfdb, #f8c0d5);
+  border-radius: 10px;
+  margin-top: 4%;
+  margin-left: 7%;
+  width: 85%;
+  height: 380px;
+  padding: 55px;
+  padding-left: 80px;
+}
+
+.sintomas li{
+  margin-top: 5px;
+  width: 680px;
+  font-size: 22px;
+}
+
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.humana, .humanah3 {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.tipos, .tiposh3 {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.fases, .fasesh3{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.cardsferti, .titulo{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.sintomas, .sintomash3{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
