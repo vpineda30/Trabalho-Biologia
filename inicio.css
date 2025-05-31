@@ -52,8 +52,14 @@ header ul a{
     transform: scale(1.05);
 }
 
-#introducao{
-  margin-top: 5%;
+.introducao{
+  background: linear-gradient(#f0cfdb, #f8c0d5);
+  margin-left: 7%;
+  border-radius: 10px;
+  padding: 55px;
+  margin-top: 10%;
+  width: 85%;
+  height: 580px;
 }
 
 .titulo{
@@ -65,5 +71,43 @@ header ul a{
   display: flex;
   justify-content: center;
 }
+
+.paragrafo p{
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.vamo{
+  display: flex;
+  justify-content: center;
+}
+
+button{
+  margin-top: 5%;
+  width: 180px;
+  height: 50px;
+  border: none;
+  border-radius: 15px;
+  background: linear-gradient(30deg, #e9c0cf, #eba5bf, #f78fb5);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button a{
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  color: #303030;
+  font-size: 18px;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+
 
 
