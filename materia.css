@@ -38,6 +38,14 @@ header ul{
     list-style: none;
     gap: 22%;
 }
+
+header img{
+  position: absolute;
+  margin-top: 3.5%;
+  margin-left: 2%;
+  width: 220px;
+}
+
 header ul a{
     font-size: 15px;
     font-weight: 450;
@@ -69,6 +77,16 @@ header ul a{
   width: 85%;
   height: 380px;
 }
+
+.img1 img{
+  position: absolute;
+  margin-bottom: 5%;
+  margin-left: 8%;
+  border-radius: 10px;
+  width: 27%;
+  height: 280px;
+}
+
 .fecundacao p{
   display: flex;
   align-items: center;
@@ -76,6 +94,7 @@ header ul a{
   width: 50%;
   font-size: 22px;
   text-align: justify;
+
 }
 .fecundacaoh3{
   display: flex;
@@ -159,6 +178,7 @@ header ul a{
   margin-top: 8%;
   color: #303030;
 }
+
 .humana{
   display: flex;
   background: linear-gradient(#f0cfdb, #f8c0d5);
@@ -169,6 +189,16 @@ header ul a{
   height: 380px;
   padding: 55px;
 }
+
+.img2 img{
+  position: absolute;
+  margin-bottom: 5%;
+  margin-left: 8%;
+  border-radius: 10px;
+  width: 27%;
+  height: 280px;
+}
+
 .humana p{
   display: flex;
   margin-left: 50%;
@@ -176,6 +206,15 @@ header ul a{
   text-align: justify;
   width: 50%;
   font-size: 18px;
+}
+
+.img1 img{
+  position: absolute;
+  margin-bottom: 5%;
+  margin-left: 8%;
+  border-radius: 10px;
+  width: 27%;
+  height: 280px;
 }
 
 /* fedundação humana fim */
@@ -287,12 +326,28 @@ header ul a{
   padding-left: 80px;
 }
 
+.img3{
+  position: absolute;
+}
+
+.img3 img{
+  margin-left: 170%;
+  border-radius: 10px;
+  width: 80%;
+  height: 280px;
+}
+
 .sintomas li{
   margin-top: 5px;
   width: 680px;
   font-size: 22px;
 }
 
+
+footer{
+  position: absolute;
+  
+}
 
 @keyframes appear {
     from {

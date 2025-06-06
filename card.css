@@ -1,8 +1,15 @@
-card{
+.card{
     width: 200px;
     margin: 20px;
     perspective: 1000px;
 
+}
+
+header img{
+  position: absolute;
+  margin-top: 3.5%;
+  margin-left: 2%;
+  width: 220px;
 }
 
 .face{
