@@ -116,6 +116,47 @@ button:hover{
     transform: scale(1.05);
 }
 
+.footer {
+  background: linear-gradient(#f0cfdb, #e9b2c6);
+  color: #000;
+  padding: 30px 10%;
+  font-size: 16px;
+  border-radius: 12px 12px 0 0;
+  margin-top: 8%;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer-section {
+  flex: 1 1 300px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-section li {
+  margin-bottom: 5px;
+}
+
+.ds{
+  position: absolute;
+}
+.multi ul {
+  margin-left: 29%;
+}
 
 
 

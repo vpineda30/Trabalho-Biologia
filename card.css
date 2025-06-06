@@ -12,6 +12,18 @@ header img{
   width: 220px;
 }
 
+main{
+    margin-top: 5%;
+}
+
+.cardeados{
+    display: flex;
+    justify-content: center;
+    margin-right: 5%;
+    gap: 3%;
+    flex-wrap: wrap;
+}
+
 .face{
     width: 200px;
     height: 300px;
@@ -35,13 +47,11 @@ header img{
 }
 
 .front{
-   background: linear-gradient(#f4cbda, #e9b2c6);
     transform: rotateY(0);
     cursor: pointer;
 }
 
 .back{
-   background: linear-gradient(#f4cbda, #e9b2c6);
     transform: rotateY(180deg);
     cursor: pointer;
     color: rgb(0, 0, 0);
@@ -50,6 +60,21 @@ header img{
 .todosOsCards{
     display: flex;
     justify-content: start;
+}
+
+.front img{
+    border-radius: 10px;
+}
+
+.back img{
+    border-radius: 10px;
+}
+
+.linha2{
+    display: flex;
+    justify-content: center;
+    gap: 3.5%;
+    margin-top: 5%;
 }
 
 
